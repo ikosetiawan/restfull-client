@@ -20,7 +20,7 @@ async function renderData() {
                     <h5 class="card-title">ID : ${data.id}</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Nama : ${data.nama}</h6>
                     <br>
-                    <button class="card-link btn btn-info" id="set-detail" data-target="#modal-detail" data-toggle="modal" data-id="${data.id}" data-nama="${data.nama}" data-absen="${data.absen}" data-lembur="${data.lembur}" data-coba="${data.target}" data-reward="${data.reward}">Detail</button>
+                    <button class="card-link btn btn-dark" id="set-detail" data-target="#modal-detail" data-toggle="modal" data-id="${data.id}" data-nama="${data.nama}" data-absen="${data.absen}" data-lembur="${data.lembur}" data-coba="${data.target}" data-reward="${data.reward}">Detail</button>
                 </div>
             </div>
                         `;
